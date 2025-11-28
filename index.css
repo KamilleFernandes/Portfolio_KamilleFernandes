@@ -177,7 +177,7 @@ footer{
 }
 
 .habilidade-card {
-    background: rgba(255, 255, 255, 0.8);
+    background: #fff;
     border-radius: 8px;
     padding: 20px;
     width: 130px;
@@ -186,6 +186,9 @@ footer{
     align-items: center;
     gap: 10px;
     color: #000;
+    box-shadow: 0 0 30px rgba(24, 24, 24, 0.8);
+
+    
 }
 
 .habilidade-card img {
