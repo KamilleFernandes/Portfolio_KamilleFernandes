@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&family=Audiowide&family=Orbitron:wght@400;700;900&family=Chakra+Petch:wght@300;400;700&family=Saira+Stencil+One&family=Squada+One&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Portfólio de Kamille Fernandes</title>
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <h2>Kamille Fernandes da Silva</h2>
+            <h2>Meu portfólio</h2>
         <div class="navbar-buttons">
-          <a href="#Sobre" class="nav-button">Sobre</a>
-          <a href="#Formacao" class="nav-button">Formação</a>
-          <a href="#Projetos" class="nav-button">Projetos</a>
-          <a href="#Habilidades" class="nav-button">Habilidades</a>
-          <a href="#Certificações" class="nav-button">Certificações</a>
-          <a href="#Contato" class="nav-button">Contato</a>
+          <a href="#Sobre" class="nav-button"><h5>Sobre</h5></a>
+          <a href="#Formacao" class="nav-button"><h5>Formação</h5></a>
+          <a href="#Projetos" class="nav-button"><h5>Projetos</h5></a>
+          <a href="#Habilidades" class="nav-button"><h5>Habilidades</h5></a>
+          <a href="#Certificacoes" class="nav-button"><h5>Certificações</h5></a>
+          <a href="#Contato" class="nav-button"><h5>Contato</h5></a>
         </div>
         </nav>
     </header>
@@ -25,61 +27,209 @@
     <section id="Sobre" class="Sobre">
         <div class="container">
         <div class="foto-col">
-            <img src="foto" class="foto" name="foto">
+            <img src="imagens/kamille.png" class="foto" name="foto">
         </div>
-        <div class="texto-s">
-            <h1>Sobre mim</h1>
-            <div class="name"><h4>Olá, me chamo Kamille Fernandes da Silva</h4></div>
-            <div class="texto"><h6>Sou estudante de Análise e Desenvolvimento de Sistemas e desenvolvedora em formação, com foco em atuar como Full-Stack.</h6></div>
-            <div class="texto"><h6>Tenho experiência em projetos de aplicação web, onde aplico boas práticas e busco constantemente evoluir minhas habilidades técnicas</h6></div>
-            <div class="texto"><h6>Meu objetivo é aprimorar meus conhecimentos, aprender novas tecnologias e utilizá-las em meu trabalho e na resolução de diferentes tipos de problemas</h6></div>
+        <div class="text-col">
+            <div class="title">
+                <h1>Sobre mim</h1>
+            </div>
+            <div class="text">
+                <div class="name" style="color:rgb(4, 149, 206);"><h4>Olá Mundo! Me chamo Kamille Fernandes da Silva</h4></div><br>
+                <div class="texto"><h5>Sou estudante de Análise e Desenvolvimento de Sistemas na Fatec de São José dos Campos, com foco em atuar como Desenvolvedora Full-Stack.</h5></div>
+                <div class="texto"><h5>Tenho experiência em projetos de aplicação web, onde aplico boas práticas de desenvolvimento e metodologias ágeis. Busco constantemente evoluir minhas habilidades técnicas, explorando novas tecnologias e aprimorando minha capacidade de resolver problemas de forma criativa e eficiente.</h5></div>
+                <div class="texto"><h5>Meu objetivo é continuar aprendendo, evoluindo e contribuindo com soluções que façam a diferença.</h5></div><br>
+                <div class="texto"><h5>Seja muito bem-vindo(a) ao meu portfólio!</h5></div>
+            </div>
         </div>
         </div>
     </section>
 
     <section id="Formacao" class="Formacao">
         <div class="container">
+            <div class="title">
             <h1>Formação</h1>
-        <div class="form-col1">
-            <div class="texto"><h4>Técnologo em Análise e Desenvolvimento de Sistemas</h4></div>
-            <div class="texto"><p>Fatec Jessen Vidal</p></div>
-            <div class="texto"><p>Atualmente</p></div><br>
+            </div>
+        <div class="card">
+            <div class="titulo" style="color:rgb(4, 149, 206);  text-shadow: 1px 1px 5px rgba(253, 252, 252, 0.8);"><h4><i class="bi bi-mortarboard-fill"></i> Técnologo em Análise e Desenvolvimento de Sistemas</h4></div>
+            <div class="texto" style="margin-top: 3%;"><h5>Fatec São José dos Campos</h5></div>
+            <div class="texto"><h5>Início: 08/2025</h5></div>
+            <div class="texto"><h5>Atualmente</h5></div>
         </div>
-        <div class="form-col2">
-            <div class="texto"><h4>Técnico em Desenvolvimento de Sistemas</h4></div>
-            <div class="texto"><p>Etec Prof° Ilza Nascimento Pintus</p></div>
-            <div class="texto"><p>Início: 01/2021</p></div>
-            <div class="texto"><p>Conclusão: 12/2023</p></div><br>
+        <div class="card">
+            <div class="titulo"><h4><i class="bi bi-journal-bookmark"></i> Ensino médio integrado ao técnico em Desenvolvimento de Sistemas</h4></div>
+            <div class="texto" style="margin-top: 3%;"><h5>E.E João Cursino/ Etec</h5></div>
+            <div class="texto"><h5>Início: 01/2021</h5></div>
+            <div class="texto"><h5>Conclusão: 12/2023</h5></div><br>
         </div>
         </div>
     </section>
 
     <section id="Projetos" class="Projetos">
         <div class="container">
+        <div class="title">
             <h1>Meus projetos</h1>
-            <div class="projeto1"><h4>Curso de Scrum</h4></div>
-            <div class="texto"><h3>Desenvolvido pela equipe 404 Team Not Found:</h3><img src="imagens/404.png" name="logo" style="width:5%;"><a href="https://github.com/404-Team-Not-Found-API/plataforma-scrum-api-2025.2.git">404 Curso de Scrum</a></div>
+        </div>
+            <div class="card">
+            <div class="titulo" style="text-align: center;"><h4>A agilidade na palma da mão - Curso de Scrum</h4></div>
+            <div class="texto"><h5>Aplicação Web desenvolvida para treinamento da metodologia ágil Scrum, com conteúdo teórico e exercícios práticos.</h5></div>
+            <div class="texto"><h6>Desenvolvido em conjunto com a equipe: <a href="https://github.com/404-Team-Not-Found-API" target="_blank" style="text-decoration: none;">404 - Team Not Found</a></h6></div>
+            <div class="texto"><h5>Tecnologias:</h></div>
+            <div class="tecnologias">
+                <div class="fw-bold">HTML</div>
+                <div class="fw-bold">CSS</div>
+                <div class="fw-bold">Javascript</div>
+                <div class="fw-bold">Python</div>
+                <div class="fw-bold">Flask</div>
+                <div class="fw-bold">Miro</div>
+                <div class="fw-bold">Figma</div>
+                <div class="fw-bold">Jira</div>
+                <div class="fw-bold">Git</div>
+                <div class="fw-bold">Github</div>
+                <div class="fw-bold">Bootstrap</div>
+            </div><br>
+            <div class="caminhos">
+                <h5>Acesse:</h5>
+                <a href="https://github.com/404-Team-Not-Found-API/plataforma-scrum-api-2025.2" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://plataforma-scrum-api-2025-2.vercel.app" target="_blank"><i class="bi bi-globe"></i></a>
+            </div>
+
+            </div>
+
+            <div class="card">
+            <div class="titulo" style="text-align: center;"><h4>Casa & Arte</h4></div>
+            <div class="texto"><h5>Aplicação web com estilização baseada em uma loja de design de interiores. Projeto para atividade da matéria de Programação em Microinformática, com intuito de criar um site simples com 3 páginas.</h5></div>
+            <div class="texto"><h5>Tecnologias:</h></div>
+            <div class="tecnologias">
+                <div class="fw-bold">HTML</div>
+                <div class="fw-bold">CSS</div>
+                <div class="fw-bold">Git</div>
+                <div class="fw-bold">Github</div>
+            </div><br>
+            <div class="caminhos">
+                <h5>Acesse:</h5>
+                <a href="https://github.com/KamilleFernandes/Projeto-Casa-e-Arte" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://projeto-casa-e-arte.vercel.app" target="_blank"><i class="bi bi-globe"></i></a>
+            </div>
         </div>
     </section>
 
     <section id="Habilidades" class="Habilidades">
         <div class="container">
+            <div class="title">
             <h1>Habilidades</h1>
-            <i class="bi bi-github">Github</i>
+            </div>
+            <div class="hab">
+                <div class="habilidade-card">
+                    <img src="imagens/html-5.png" alt="HTML">
+                    <span>HTML5</span>
+                </div>
+                <div class="habilidade-card">
+                    <img src="imagens/css3.png" alt="CSS">
+                    <span>CSS3</span>
+                </div>
+                <div class="habilidade-card">
+                    <img src="imagens/python.png" alt="Python">
+                    <span>Python</span>
+                </div>
+                <div class="habilidade-card">
+                    <img src="imagens/php.png" alt="PHP">
+                    <span>PHP</span>
+                </div>
+                <div class="habilidade-card">
+                    <img src="imagens/mysql.png" alt="MySQL">
+                    <span>MySQL</span>
+                </div>
+                <div class="habilidade-card">
+                    <img src="imagens/arduino.png" alt="Arduino">
+                    <span>Arduino</span>
+                </div>
+                <div class="habilidade-card">
+                    <img src="imagens/figma.png" alt="Figma">
+                    <span>Figma</span>
+                </div>
+                <div class="habilidade-card">
+                    <img src="imagens/flask.png" alt="Flask">
+                    <span>Flask</span>
+                </div>
+                <div class="habilidade-card">
+                    <img src="imagens/bootstrap.png" alt="Bootstrap">
+                    <span>Bootstrap</span>
+                </div>
+                <div class="habilidade-card">
+                    <img src="imagens/git.png" alt="Git">
+                    <span>Git</span>
+                </div>
+                <div class="habilidade-card">
+                    <img src="imagens/github.png" alt="GitHub">
+                    <span>GitHub</span>
+                </div>
+                <div class="habilidade-card">
+                    <img src="imagens/vscode.png" alt="VSCode">
+                    <span>VSCode</span>
+                </div>
+                <div class="habilidade-card">
+                    <img src="imagens/jira.png" alt="Jira">
+                    <span>Jira</span>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="Certificacoes" class="Certificacoes">
-        <div class="container">
+    <div class="container">
+        <div class="title">
             <h1>Certificações</h1>
         </div>
+            <div class="card">
+            <div class="titulo" style="text-align: center;"><h4>Curso básico de Git</h4></div>
+            <div class="texto"><h6>Cursa.com</h6></div>
+            <div class="texto"><h6>2025</h6></div>
+            <img src="">
+            </div>
+
+            <div class="card">
+            <div class="titulo" style="text-align: center;"><h4>Linux Uncharted</h4></div>
+            <div class="texto"><h6>Cisco Networking Academy</h6></div>
+            <div class="texto"><h6>2025</h6></div>
+            <img src="">
+            </div>
+
+            <div class="card">
+            <div class="titulo" style="text-align: center;"><h4>IT: Essentials</h4></div>
+            <div class="texto"><h6>Cisco Networking Academy</h6></div>
+            <div class="texto"><h6>2025</h6></div>
+            <img src="">
+            </div>
+    </div>
     </section>
 
     <section id="Contato" class="Contato">
-        <div class="container">
+    <div class="container">
+        <div class="title">
             <h1>Contato</h1>
         </div>
+        <div class="texto"><h5>Estou sempre aberta a novas ideias, desafios, oportunidades, e a colaborar com pessoas que também gostam de criar e inovar! Fique á vontade para me enviar uma mensagem pelos canais abaixo: </h5></div>
+        <div class="contatos">
+            <div class="contato-item">
+                <a href="mailto:kamillefds2005@gmail.com">
+                    <i class="bi bi-envelope"></i>
+                    <span>kamillefds2005@gmail.com</span>
+                </a>
+            </div>
+            <div class="contato-item">
+                <a href="https://www.linkedin.com/in/kamille-fernandes/" target="_blank">
+                    <i class="bi bi-linkedin"></i>
+                    <span>/in/kamille-fernandes</span>
+                </a>
+            </div>
+            <div class="contato-item">
+                <a href="https://github.com/KamilleFernandes" target="_blank">
+                    <i class="bi bi-github"></i>
+                    <span>/KamilleFernandes</span>
+                </a>
+            </div>
+        </div>
+    </div>
     </section>
-
 </body>
 </html>
